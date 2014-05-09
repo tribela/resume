@@ -1,0 +1,28 @@
+body {
+	background: #ddd;
+	font-family: Arial;
+}
+
+article[role=main] {
+	padding: 1em 2em;
+}
+
+article[role=main] a {
+	color: #1d4f73;
+}
+
+article[role=main] dl {
+	padding-left: 1em;
+}
+
+article[role=main] dl > dt {
+	font-weight: bold;
+}
+
+article[role=main] > h1 {
+	font-size: 3em;
+}
+
+article[role=main] > section > h2 {
+	font-size: 1.4em;
+}
