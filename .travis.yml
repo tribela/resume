@@ -10,9 +10,11 @@ script:
   - mv resume.html index.html
 
 after_success:
-  - git add index.html
-  - git add resume.pdf
+  - git clone -b master https://${GH_TOKEN}:x-oauth-basic@${GH_REF} out
+  - mv index.html resume.pdf out/
+  - pushd out
+  - git add index.html resume.pdf
   - git config user.name "Travis"
   - git config user.email "kjwonmail@gmail.com"
   - git commit -m "Build github pages"
-  - git push -f -q https://${GH_TOKEN}:x-oauth-basic@${GH_REF} gh-pages
+  - git push -f https://${GH_TOKEN}:x-oauth-basic@${GH_REF} gh-pages
