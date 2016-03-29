@@ -10,7 +10,7 @@ script:
   - mv resume.html index.html
 
 after_success:
-  - git clone -b master https://${GH_TOKEN}:x-oauth-basic@${GH_REF} out
+  - git clone -b gh-pages https://${GH_TOKEN}:x-oauth-basic@${GH_REF} out
   - mv index.html resume.pdf out/
   - pushd out
   - git add index.html resume.pdf
