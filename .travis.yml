@@ -6,7 +6,7 @@ install:
 
 script:
   - ./markdown-resume/bin/md2resume html resume.md ./
-  - ./markdown-resume/bin/md2resume html resume.md ./
+  - ./markdown-resume/bin/md2resume pdf resume.md ./
   - mv resume.html index.html
 
 after_success:
