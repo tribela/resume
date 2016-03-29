@@ -1,7 +1,18 @@
-before_script:
-  - sudo apt-get update && sudo apt-get install -qq wkhtmltopdf xvfb
+install:
+  - sudo apt-get update && sudo apt-get install -qq wkhtmltopdf xvfb php5-cli
   - echo -e '#!/bin/bash\nxvfb-run -a --server-args="-screen 0, 1024x768x24" /usr/bin/wkhtmltopdf -q $*' | sudo tee /usr/bin/wkhtmltopdf.sh
   - sudo chmod a+x /usr/bin/wkhtmltopdf.sh
   - sudo ln -s /usr/bin/wkhtmltopdf.sh /usr/local/bin/wkhtmltopdf
 
-script: bash ./deploy.sh
+script:
+  - ./markdown-resume/bin/md2resume html resume.md ./
+  - ./markdown-resume/bin/md2resume html resume.md ./
+  - mv resume.html index.html
+
+after_success:
+  - git add index.html
+  - git add resume.pdf
+  - git config user.name "Travis"
+  - git config user.email "kjwonmail@gmail.com"
+  - git commit -m "Build github pages"
+  - git push -f -q https://${GH_TOKEN}:x-oauth-basic@${GH_REF} gh-pages
