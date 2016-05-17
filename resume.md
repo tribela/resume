@@ -54,6 +54,11 @@ ETRI
   __2016-01-01 ~ 2015-02-29__
   I have learned many things of SDN (Specialy OpenDaylight).
 
+MinSystems
+: *Outsourced - ETRI*
+  __2015-08-29 ~ 2016-02-29__
+  I wrote some scripts for automated-benchmark SDN controller, Built infrastructure for Continuous Integration.
+
 ETRI
 : *Intern*
   __2015-06-29 ~ 2015-08-28__
