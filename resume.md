@@ -51,9 +51,8 @@ I use linux since 2006, and I like web development, Python, etc.
 
 ETRI
 : *Intern*
-  __2014-12-29 ~ 2015-02-28__
+  __2016-01-01 ~ 2015-02-29__
   I have learned many things of SDN (Specialy OpenDaylight).
-  And I wrote a paper about security on SDN (Mynah: Enabling Lightweight Data Plane Authentication for SDN Controllers - ICCCN 2015)
 
 ETRI
 : *Intern*
@@ -64,8 +63,8 @@ ETRI
 ETRI
 : *Intern*
   __2014-12-29 ~ 2015-02-28__
-  I have learned many things of SDN (Specialy OpenDaylight).
-  And I wrote a paper about security on SDN (Mynah: Enabling Lightweight Data Plane Authentication for SDN Controllers - ICCCN 2015)
+  I have learned many things of SDN.
+  I wrote some plugins for IRIS SDN controller.
 
 SW_Maestro_
 : *Student Trainee*
