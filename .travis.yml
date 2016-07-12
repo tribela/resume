@@ -1,5 +1,5 @@
 install:
-  - sudo apt-get update && sudo apt-get install -qq wkhtmltopdf xvfb php5-cli
+  - sudo apt-get update && sudo apt-get install -qq wkhtmltopdf xvfb php5-cli fonts-nanum fonts-nanum-coding fonts-nanum-extra
   - echo -e '#!/bin/bash\nxvfb-run -a --server-args="-screen 0, 1024x768x24" /usr/bin/wkhtmltopdf -q $*' | sudo tee /usr/bin/wkhtmltopdf.sh
   - sudo chmod a+x /usr/bin/wkhtmltopdf.sh
   - sudo ln -s /usr/bin/wkhtmltopdf.sh /usr/local/bin/wkhtmltopdf
