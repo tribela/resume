@@ -1,4 +1,4 @@
-# Kang Jinwon
+# Jeong Arm
 ## A general developer with some special experiences
 
 > [Download PDF](resume.pdf)
@@ -120,6 +120,6 @@ Quicksand - 2009
 
 ### Footer {#footer}
 
-Kang Jinwon -- [kjwonmail@gmail.com](kjwonmail@gmail.com)
+Jeong Arm -- [kjwonmail@gmail.com](kjwonmail@gmail.com)
 
 ------
