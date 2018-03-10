@@ -16,6 +16,9 @@ I use linux since 2006, and I like web development, Python, etc.
 
 ### Skills {#skills}
 
+* Open Source Software
+  : I am very interested on OSS. Visit my [GitHub](https://github.com/Kjwon15) account to see what I have contributed.
+
 * Web Development
   : I have experiences with web development including RESTful API.
 
@@ -28,21 +31,20 @@ I use linux since 2006, and I like web development, Python, etc.
 * Python
   : I like Python very much, and I use it very often.
 
-* Machine learning
-  : I am interested with machine learning.
-
 
 -------
 
 ### Technical {#technical}
 
 1. Linux
-1. Web (including RESTful)
-1. SDN
-1. Python
+1. Web (including RESTful, Mostly backend)
+1. Docker
+1. Python(3+)
 1. Java
-1. Git, SVN
+1. Git(DVCS)
+1. Automatic Deploying
 1. Javascript, CSS, HTML5
+1. SDN
 1. Hacking & Security
 
 ------
@@ -51,8 +53,8 @@ I use linux since 2006, and I like web development, Python, etc.
 
 ETRI
 : *Intern*
-  __2016-01-01 ~ 2015-02-29__
-  I have learned many things of SDN (Specialy OpenDaylight).
+  __2016-01-01 ~ 2016-02-29__
+  I have learned many things of SDN (Specially OpenDaylight).
 
 MinSystems
 : *Outsourced - ETRI*
@@ -62,7 +64,7 @@ MinSystems
 ETRI
 : *Intern*
   __2015-06-29 ~ 2015-08-28__
-  I have learned many things of SDN (Specialy OpenDaylight).
+  I have learned many things of SDN (Specially OpenDaylight).
   And I wrote a paper about security on SDN (Mynah: Enabling Lightweight Data Plane Authentication for SDN Controllers - ICCCN 2015)
 
 ETRI
