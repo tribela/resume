@@ -16,8 +16,8 @@ I use linux since 2006, and I like web development, Python, etc.
 
 ### Skills {#skills}
 
-* Open Source Software
-  : I am very interested on OSS. Visit my [GitHub](https://github.com/Kjwon15) account to see what I have contributed.
+* OSS
+  : I am very interested on Open Source Sofrware. Visit my [GitHub](https://github.com/Kjwon15) account to see what I have contributed.
 
 * Web Development
   : I have experiences with web development including RESTful API.
@@ -37,7 +37,7 @@ I use linux since 2006, and I like web development, Python, etc.
 ### Technical {#technical}
 
 1. Linux
-1. Web (including RESTful, Mostly backend)
+1. Web (Mostly backend)
 1. Docker
 1. Python(3+)
 1. Java
