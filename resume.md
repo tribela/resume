@@ -2,7 +2,7 @@
 ## A general developer with some special experiences
 
 > [Download PDF](resume.pdf)
-> [kjwonmail@gmail.com](kjwonmail@gmail.com)
+> [kjwonmail@gmail.com](mailto:kjwonmail+iamspambot@gmail.com)
 > [kjwon15.net](https://kjwon15.net)
 
 ------
@@ -122,6 +122,6 @@ Quicksand - 2009
 
 ### Footer {#footer}
 
-Jeong Arm -- [kjwonmail@gmail.com](kjwonmail@gmail.com)
+Jeong Arm -- [kjwonmail@gmail.com](mailto:kjwonmail+iamspambot@gmail.com)
 
 ------
