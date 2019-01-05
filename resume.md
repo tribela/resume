@@ -16,6 +16,9 @@ I use linux since 2006, and I like web development, Python, etc.
 
 ### Skills {#skills}
 
+* Linux
+  : I am using Linux since 2006 (13 yo). And I know some low level of it.
+
 * OSS
   : I am very interested on Open Source Sofrware. Visit my [GitHub](https://github.com/Kjwon15) account to see what I have contributed.
 
