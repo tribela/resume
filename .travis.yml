@@ -1,8 +1,10 @@
-dist: xenial
+language: php
+php:
+  - 7.2
 
 install:
-  - sudo apt-get update && sudo apt-get install -qq wkhtmltopdf php-cli composer php-xml php-mbstring fonts-nanum fonts-nanum-coding fonts-nanum-extra
-  - pushd markdown-resume; composer install; popd
+  - sudo apt-get update && sudo apt-get install -qq wkhtmltopdf
+  - composer install -d ./markdown-resume
 
 script:
   - ./markdown-resume/bin/md2resume html resume.md ./
