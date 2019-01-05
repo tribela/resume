@@ -5,8 +5,8 @@ install:
   - pushd markdown-resume; composer install; popd
 
 script:
-  - ./markdown-resume/bin/md2resume html resume.md ./
-  - ./markdown-resume/bin/md2resume pdf resume.md ./
+  - ./markdown-resume/bin/md2resume html -t readable resume.md ./
+  - ./markdown-resume/bin/md2resume pdf -t readable resume.md ./
   - mv resume.html index.html
   - git clone -b gh-pages --depth=1 https://kjwon15:${GH_TOKEN}@${GH_REF} out
   - mv index.html resume.pdf out/
