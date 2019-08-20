@@ -9,7 +9,7 @@
 
 ### Profile {#profile}
 
-I use linux since 2006, and I like web development, Python, etc.
+I use linux since 2006, And I like web development, Python, etc.
 
 
 ------
@@ -20,12 +20,12 @@ I use linux since 2006, and I like web development, Python, etc.
   : I am using Linux since 2006 (13 yo). And I know some low level of it.
 
 * OSS
-  : I am very interested on Open Source Sofrware. Visit my [GitHub](https://github.com/Kjwon15) account to see what I have contributed.
+  : I am very interested on Open Source Software. Visit my [GitHub](https://github.com/Kjwon15) account to see what I have contributed.
 
 * Web Development
   : I have experiences with web development including RESTful API.
 
-* Hacking & security
+* Infosec
   : I started learning computer with hacking & security. So I have an experiences with secure coding.
 
 * SDN (Software Defined Network)
@@ -42,17 +42,18 @@ I use linux since 2006, and I like web development, Python, etc.
 1. Linux
 1. Web (Mostly backend)
 1. Docker
-1. Python(3+)
+1. Python(2/3)
 1. Java
 1. Git(DVCS)
 1. Automatic Deploying
 1. Javascript, CSS, HTML5
+1. Network
 1. SDN
-1. Hacking & Security
+1. Infosec
 
 ------
 
-### Experience {#experience}
+### Experiences {#experiences}
 
 ETRI
 : *Intern*
