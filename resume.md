@@ -2,8 +2,8 @@
 ## A general developer with some special experiences
 
 > [Download PDF](resume.pdf)
-> [kjwonmail@gmail.com](mailto:kjwonmail+iamspambot@gmail.com)
-> [kjwon15.net](https://kjwon15.net)
+> [jarm@802.11ac.net](mailto:jarm+iamspambot@802.11ac.net)
+> [802.11ac.net](https://802.11ac.net)
 
 ------
 
@@ -126,6 +126,6 @@ Quicksand - 2009
 
 ### Footer {#footer}
 
-Jeong Arm -- [kjwonmail@gmail.com](mailto:kjwonmail+iamspambot@gmail.com)
+Jeong Arm -- [jarm@802.11ac.net](mailto:jarm+iamspambot@802.11ac.net)
 
 ------
