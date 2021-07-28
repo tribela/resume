@@ -20,10 +20,13 @@ I use linux since 2006, And I like web development, Python, etc.
   : I am using Linux since 2006 (13 yo). And I know some low level of it.
 
 * OSS
-  : I am very interested on Open Source Software. Visit my [GitHub](https://github.com/Kjwon15) account to see what I have contributed.
+  : I am very interested on Open Source Software. Visit my [GitHub](https://github.com/Tribela) account to see what I have contributed.
 
 * Web Development
   : I have experiences with web development including RESTful API.
+
+* Automatic Deployment
+  : I like to make system automatically deployed to infra by no one's hand.
 
 * Infosec
   : I started learning computer with hacking & security. So I have an experiences with secure coding.
@@ -46,6 +49,7 @@ I use linux since 2006, And I like web development, Python, etc.
 1. Java
 1. Git(DVCS)
 1. Automatic Deploying
+1. Continuous Integration
 1. Javascript, CSS, HTML5
 1. Network
 1. SDN
@@ -54,6 +58,11 @@ I use linux since 2006, And I like web development, Python, etc.
 ------
 
 ### Experiences {#experiences}
+
+Gurum Networks
+: __2019-09-01 ~ 2021-05-01__
+  I mainly worked for developing DDS software and its CI/CD system.
+  Also collaborated with ETRI to make Distributed File system
 
 ETRI
 : *Intern*
