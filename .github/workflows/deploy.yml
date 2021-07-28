@@ -39,7 +39,7 @@ jobs:
           restore-keys: ${{ runner.os }}-composer-
 
       - name: Install dependencies
-        run: composer -d ./markdown-resume install --prefer-dist
+        run: composer install -d ./markdown-resume --prefer-dist
 
       - name: Run md2resume
         run: |
