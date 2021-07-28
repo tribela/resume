@@ -25,7 +25,7 @@ I use linux since 2006, And I like web development, Python, etc.
 * Web Development
   : I have experiences with web development including RESTful API.
 
-* Automatic Deployment
+* Auto Deployment
   : I like to make system automatically deployed to infra by no one's hand.
 
 * Infosec
