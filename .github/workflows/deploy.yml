@@ -7,10 +7,17 @@ jobs:
   build_resume:
     runs-on: ubuntu-latest
     steps:
-      - name: install build tools
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'
+          extensions: mbstring, xml
+          tools: composer
+
+      - name: Install required packages
         run: |
           sudo apt-get update
-          sudo apt-get install -qqy xvfb wkhtmltopdf php-xml php-mbstring fonts-nanum fonts-nanum-coding fonts-nanum-extra
+          sudo apt-get install -qqy xvfb wkhtmltopdf fonts-nanum fonts-nanum-coding fonts-nanum-extra
           echo -e '#!/bin/bash\nxvfb-run -a --server-args="-screen 0, 1920x1080x24" /usr/bin/wkhtmltopdf -q $*' | sudo tee /usr/bin/wkhtmltopdf.sh
           sudo chmod a+x /usr/bin/wkhtmltopdf.sh
           sudo ln -s /usr/bin/wkhtmltopdf.sh /usr/local/bin/wkhtmltopdf
@@ -20,8 +27,19 @@ jobs:
         with:
             submodules: recursive
 
-      - name: Setup md2resume
-        run: composer install -d ./markdown-resume
+      - name: Get composer cache directory
+        id: composer-cache
+        run: echo "::set-output name=dir::$(composer config cache-files-dir)"
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ${{ steps.composer-cache.outputs.dir }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: ${{ runner.os }}-composer-
+
+      - name: Install dependencies
+        run: composer -d ./markdown-resume install --prefer-dist
 
       - name: Run md2resume
         run: |
