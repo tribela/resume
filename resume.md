@@ -34,6 +34,9 @@ I use linux since 2006, And I like web development, Python, etc.
 * SDN (Software Defined Network)
   : When I was intern at ETRI, I have a lot of experiences with SDN.
 
+* TSN (Time Sensitive Networking)
+  : I am working on TSN (IEEE 802.1Q)
+
 * Python
   : I like Python very much, and I use it very often.
 
@@ -58,6 +61,12 @@ I use linux since 2006, And I like web development, Python, etc.
 ------
 
 ### Experiences {#experiences}
+
+TSNLab, Inc.
+: __2021-05-01 ~__
+  Working on TSN(Time Sensitive Networking) switches, router, tool, …  
+  Fast ONNX runtime for embedded systems  
+  + Various devops
 
 Gurum Networks
 : __2019-09-01 ~ 2021-05-01__
