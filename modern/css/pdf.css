@@ -18,10 +18,10 @@ body.pdf {
     .resume {
         position:relative;
         padding: 40px 80px;
-    }
 
-    a[href$='.pdf'] {
-        display: none;
+        a[href$='.pdf'] {
+            display: none;
+        }
     }
 
     h1 {
