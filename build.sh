@@ -8,3 +8,5 @@ apt-get install -qqy --no-install-recommends \
 mkdir output || true
 md2resume pdf -t ./modern resume.md ./output
 md2resume html -t ./modern resume.md ./output
+
+mv output/resume.html output/index.html
