@@ -48,14 +48,15 @@ I use linux since 2006, And I like web development, Python, etc.
 1. Linux
 1. Web (Mostly backend)
 1. Docker
-1. Python(2/3)
+1. Python (FastAPI)
+1. Rust
 1. Java
-1. Git(DVCS)
+1. Git
 1. Automatic Deploying
 1. Continuous Integration
 1. Javascript, CSS, HTML5
 1. Network
-1. SDN
+1. SDN, TSN, ROS2, DDS
 1. Infosec
 
 ------
@@ -63,10 +64,11 @@ I use linux since 2006, And I like web development, Python, etc.
 ### Experiences {#experiences}
 
 TSNLab, Inc.
-: __2021-05-01 ~__
-  Working on TSN(Time Sensitive Networking) switches, router, tool, …  
+: __2021-05-01 ~ 2026-03-31__
+  Working on TSN(802.1Q, Time Sensitive Networking) switches, router, tool, …  
   Fast ONNX runtime for embedded systems  
-  + Various devops
+  ROS2, DDS
+  + Various devops including CI/CD
 
 Gurum Networks
 : __2019-09-01 ~ 2021-05-01__
