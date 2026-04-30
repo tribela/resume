@@ -31,17 +31,27 @@ jobs:
         uses: actions/checkout@v3
         with:
           submodules: true
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wkhtmltopdf pandoc
+          npm install -g less
+
       - name: Compile résumé
         run: |
-          docker build -t markdown-resume markdown-resume
-          docker run --rm -v $PWD:/resume markdown-resume ./build.sh
+          chmod +x ./build.sh
+          ./build.sh
+
       - name: Setup Pages
         uses: actions/configure-pages@v1
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
           # Upload output
           path: './output'
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@main
