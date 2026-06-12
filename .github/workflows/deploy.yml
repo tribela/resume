@@ -35,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y wkhtmltopdf pandoc
+          sudo apt-get install -y wkhtmltopdf pandoc fonts-nanum fonts-nanum-coding fonts-nanum-extra
           npm install -g less
 
       - name: Compile résumé
