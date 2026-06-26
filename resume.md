@@ -1,4 +1,4 @@
-# 정아름
+# 정아름 (실명: 강진원)
 ## 
 
 > [Download PDF](resume.pdf)
@@ -121,12 +121,12 @@ KISTI
 충남대학교 영재교육원
 : *Student trainee at Physics*
   __2006 ~ 2008__
-  I have graduated.
+  충남대학교 영재교육원 중등과정에서 과학-물리 과정을 수료하였습니다.
 
 공주대학교 영재교육원
 : *Student trainee at Mathematics*
   __2004 ~ 2005__
-  I have graduated.
+  공주대학교 영재교육원 초등과정에서 수학 과정을 수료하였습니다.
 
 ------
 
