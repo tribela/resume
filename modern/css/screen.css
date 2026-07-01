@@ -84,14 +84,16 @@
         font-weight: normal;
     }
     
-    h3 {
-        float: left;
-        width: 16%;
-    }
     
-    h3+p {
-        float: left;
-        width: 78%;
+		h3~dl {
+			margin-left: 5%;
+		}
+
+    h3~p,
+		h3~ul,
+		h3~li {
+        margin-left: 10%;
+				margin-right: 10%;
     }
     
     ul dl {

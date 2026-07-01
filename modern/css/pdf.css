@@ -38,13 +38,7 @@ body.pdf {
         font-weight: normal;
     }
     h3 {
-        float: left;
-        width: 16%;
         font-style: normal;
-    }
-    h3+p {
-        float: left;
-        width: 78%;
     }
 
     blockquote {
@@ -54,7 +48,6 @@ body.pdf {
     }
 
     ul li {
-        width: 33%;
         float: left;
     }
     ul dl {
@@ -77,7 +70,6 @@ body.pdf {
     }
 
     ol li {
-        width: 33%;
         margin: 0;
     }
     ol li:nth-child(3n) {
@@ -88,11 +80,10 @@ body.pdf {
     }
 
     dl {
-        margin: .7em 0 0;
+        /* margin: .7em 0 0; */
         page-break-inside: avoid !important;
         display: block;
-        width:79%;
-        float: left;
+        width:100%;
         dt {}
         dd {
         }
