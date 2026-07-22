@@ -11,6 +11,7 @@
 
 body {
     font-family: 'Hoefler Text', Times New Roman, Times, 'NanumMyeongjo', serif;
+    line-height: 1.6;
     color: #444;
 }
 h1, h2, h3, h4, ul dl dt {
@@ -101,8 +102,6 @@ h3+p {
 ul {
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-wrap: wrap;
 }
 ul li {
     margin: 0;
@@ -146,10 +145,12 @@ ol li:nth-child(1) {
 }
 
 dl {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
     width: 90%;
     margin: 0;
     padding: 0;
+
     dt {
         margin: 0;
         padding: 0;
@@ -166,7 +167,7 @@ dl {
     }
     em {
         display: block;
-        font-size: 110%;
+        font-size: .8em;
         margin: .15em 0 .5em;
         font-style: bold;
     }
@@ -179,7 +180,6 @@ dl {
 }
 
 #footer + p {
-    width: 100%;
     font-size: 11px;
     text-align: center;
 }

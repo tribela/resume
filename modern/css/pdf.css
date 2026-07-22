@@ -48,7 +48,6 @@ body.pdf {
     }
 
     ul li {
-        float: left;
     }
     ul dl {
         margin: 0;
@@ -64,7 +63,6 @@ body.pdf {
     }
 
     ol {
-        float: left;
         width: 79%;
         margin: .7em 0 0;
     }
@@ -82,19 +80,9 @@ body.pdf {
     dl {
         /* margin: .7em 0 0; */
         page-break-inside: avoid !important;
-        display: block;
         width:100%;
         dt {}
-        dd {
-        }
-        strong {
-            float: right;
-            margin-top: -2em;
-        }
-        em {
-            font-size: 130%;
-            font-style: normal;
-        }
+        dd {}
 
     }
 
