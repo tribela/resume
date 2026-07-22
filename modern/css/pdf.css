@@ -78,12 +78,9 @@ body.pdf {
     }
 
     dl {
-        /* margin: .7em 0 0; */
         page-break-inside: avoid !important;
-        width:100%;
-        dt {}
-        dd {}
 
+				border-top: 1px solid grey;
+				border-bottom: 1px dashed grey;
     }
-
 }

@@ -42,8 +42,8 @@ pandoc -f markdown+hard_line_breaks \
        -H output/pdf_style_header.html \
        resume.md -o output/pdf.html
 
-# 3. Generate PDF using wkhtmltopdf
-wkhtmltopdf --enable-local-file-access output/pdf.html output/resume.pdf
+# 3. Generate PDF using Playwright + Chromium
+node scripts/build_pdf.mjs output/pdf.html output/resume.pdf
 
 # Copy resume.html to index.html for web serving
 cp output/resume.html output/index.html

@@ -98,6 +98,17 @@ h3+p {
     line-height: 24px;
 }
 
+h3~dl {
+	margin-left: 5%;
+}
+
+h3~p,
+h3~ul,
+h3~li {
+    margin-left: 10%;
+		margin-right: 10%;
+}
+
 
 ul {
     margin: 0;
@@ -121,27 +132,6 @@ ul dl {
         font-size: .8em;
         line-height: 1.5em;
     }
-}
-
-ol {
-    margin: 0;
-    padding: 0 0 .75em;
-    width: 84%;
-    display: inline-block;
-}
-
-ol li {
-    margin: 0 0 0 1em;
-    padding: 0;
-    border-top: 1px solid #CCCCCC;
-    width: 100%;
-    float: left;
-    list-style: none;
-    line-height: 24px;
-    font-size: 14px;
-}
-ol li:nth-child(1) {
-    border-top: none;
 }
 
 dl {

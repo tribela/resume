@@ -35,8 +35,10 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y wkhtmltopdf pandoc fonts-nanum fonts-nanum-coding fonts-nanum-extra
+          sudo apt-get install -y pandoc fonts-nanum fonts-nanum-coding fonts-nanum-extra
           npm install -g less
+          npm install playwright
+          npx playwright install --with-deps chromium
 
       - name: Compile résumé
         run: |
