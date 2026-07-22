@@ -82,5 +82,11 @@ body.pdf {
 
 				border-top: 1px solid grey;
 				border-bottom: 1px dashed grey;
+				margin-top: 2em;
+				margin-bottom: 1em;
+
+				dd {
+					padding-top: 1em;
+				}
     }
 }

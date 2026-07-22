@@ -17,7 +17,7 @@ await page.pdf({
   path: pdf,
   format: "A4",
   printBackground: true,
-  margin: { top: "0", right: "0", bottom: "0", left: "0" },
+  margin: { top: "15mm", right: "0", bottom: "15mm", left: "0" },
   displayHeaderFooter: false,
 });
 await browser.close();
