@@ -13,7 +13,7 @@
 - Broad architecture design and development experience spanning system drivers to web services
 - Strong in secure coding and network security based on an information security (Infosec) background
 - Top contributor to Mastodon, a global open-source project
-- Operated a web service used by thousands of users independently and reliably for 10 years, owning all infrastructure including a Git-based automated deployment system
+- Operated a web service used by thousands of users independently and reliably since 2017 (10th year), owning all infrastructure including a Git-based automated deployment system
 - Led national research institute projects with high technical uncertainty to completion, backed by years of experience and proven collaboration skills
 
 ------
