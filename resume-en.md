@@ -123,6 +123,12 @@ Game development (Atomic Bomb)
 
 ### Papers {#papers}
 
+- Performance Analysis of Software-Based Bridges Supporting Time Sensitive Networks - Journal of KICS 46(11), 2021
+  Performance characteristics of software-based bridges supporting TSN (802.1AS/Qbv/Qav) scheduling
+
+- Chipmunk: Distributed Object Storage for NDN - ACM ICN 2020 (Demo)
+  Object storage for NDN that stores data across nodes via DHT and provides location-independent access through name-to-location metadata (joint work with ETRI)
+
 - Mynah: Enabling Lightweight Data Plane Authentication for SDN Controllers - ICCCN 2015
   Presenting security vulnerabilities of SDN controllers and improvement methods
 

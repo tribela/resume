@@ -123,6 +123,12 @@ Microsoft APPSTAR awards *학생부문 은상*
 
 ### Papers {#papers}
 
+- Performance Analysis of Software-Based Bridges Supporting Time Sensitive Networks - 한국통신학회논문지 46(11), 2021
+  소프트웨어 기반 브리지에서 TSN(802.1AS/Qbv/Qav) 스케줄링을 지원할 때의 성능 특성 분석
+
+- Chipmunk: Distributed Object Storage for NDN - ACM ICN 2020 (Demo)
+  NDN 환경에서 DHT 기반으로 데이터를 분산 저장하고, 이름-위치 메타데이터로 위치 독립적인 접근을 제공하는 오브젝트 스토리지 설계 (ETRI 공동연구)
+
 - Mynah: Enabling Lightweight Data Plane Authentication for SDN Controllers - ICCCN 2015
   SDN 컨트롤러의 보안 취약점들과 개선 방법 제시
 
